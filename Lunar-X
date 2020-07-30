@@ -1,0 +1,20 @@
+--[[----------------------------------------------------------------
+|                                                                  |
+|                                                                  |
+|                                                                  |
+|                                                                  |
+|                                                                  |
+|                                                                  |
+|                                                                  |
+|                                                                  |
+|------------------------------------------------------------------|
+|    Credits:    | Binds & Info:                                   |
+|    Lxnden      | U                         Open and close output |
+|    uhlanden    | RShift                          Fill suggestion |
+|                | ;                               Focus on CMDBar |
+| -------------- | Q                                Open and close |
+|                | LShift+Bksp                        Clear CMDbar |
+|                |                                                 |
+|                | .cmds                             List commands |
+----------------------------------------------------------------]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))()
