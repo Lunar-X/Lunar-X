@@ -147,7 +147,7 @@ function Stand(Text1,Text2,Text3,Text4,Text5,Text6,Btn)
 	Free.TextSize = 17.000
 end
 
-LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading CMD-X.","Thanking Lxnden.","Thanking James.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
+LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading CMD-X.","Thanking Lxnden.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
 
 local cmdp = game:GetService("Players")
 local cmdlp = cmdp.LocalPlayer
