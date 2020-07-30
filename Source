@@ -196,6 +196,7 @@ local Devs = {
 
 DevCords = {
 	"Lxnden";
+	"James";
 }
 
 local Donors = {
