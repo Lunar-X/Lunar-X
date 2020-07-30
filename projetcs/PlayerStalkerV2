@@ -252,7 +252,7 @@ Credits.BorderSizePixel = 0
 Credits.Position = UDim2.new(0.0435967296, 0, 0.934426188, 0)
 Credits.Size = UDim2.new(0.912806451, 0, 0.0512295179, 0)
 Credits.Font = Enum.Font.ArialBold
-Credits.Text = "Made by: pigeon#1818"
+Credits.Text = "Made by: Lxnden"
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.TextSize = 16
 
