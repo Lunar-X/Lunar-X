@@ -1,4 +1,4 @@
--- Made by pigeon#1818, all rights reserved. Make sure to check out my Admin GUI (CMD-X) search CMD-X Roblox on Google!
+-- Made by Lxnden, all rights reserved. Make sure to check out my Admin GUI (CMD-X) search CMD-X Roblox on Google!
 
 -- IF YOU ARE USING SYNAPSE DO NOT PRESS THE CONSOLE WHILE BADGE SNIPER IS RUNNING, YOU MAY CRASH.
 
@@ -26,7 +26,7 @@ if rconsolewarn then rconsolewarn("WHILE BADGE SNIPER IS RUNNING DO NOT PRESS TH
 local CurrentId = "0"
 local NoLongerLooking = false
 local CurrentBadge = "0"
-PrintSync("\nWelcome to BadgeSniper by pigeon#1818! Username for user search = "..Target)
+PrintSync("\nWelcome to BadgeSniper by Lxnden! Username for user search = "..Target)
 if rconsolename then rconsolename("Badge Sniper//Get CMD-X or gay.") end
 PrintSync("\n")
 WarnSync("Due to Roblox sorting badges by oldest first the badge checking process may take some time.")
