@@ -184,20 +184,19 @@ local dp = cmdlp
 cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
-	["progamer421minus1"] = "Owner",
-	["octoberboy68plus1"] = "Owner",
-	["pigeoncult"] = "Owner",
-	["knifemarks"] = "Owner",
-	["CMD_X"] = "Owner",
-	["Curvn"] = "Dev",
-	["4444445678102"] = "Owner",
-	["coryhofmann"] = "Dev" -- Curvns ALT YOU FAT HEAD
+	["open"] = "Owner",
+	["open"] = "Owner",
+	["AshleyUnicorn"] = "Owner",
+	["open"] = "Owner",
+	["open"] = "Owner",
+	["open"] = "Dev",
+	["open"] = "Owner",
+	["open"] = "Dev",
 }
 
 DevCords = {
-	"pigeon#1818";
-	"hz#4777";
-	"Curvn#2646";
+	"Lxnden";
+	"James";
 }
 
 local Donors = {
