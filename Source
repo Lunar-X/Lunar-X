@@ -702,7 +702,7 @@ end
 
 if AntiCheat.IntroAudioOff == false then
 	local Sound2 = Instance.new("Sound", game:GetService("PolicyService"))
-	Sound2.SoundId = "http://www.roblox.com/asset/?id="..5032588119
+	Sound2.SoundId = "http://www.roblox.com/asset/?id="..5466613746
 	Sound2:Play()
 end
 ---------------------------------------|
