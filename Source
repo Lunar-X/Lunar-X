@@ -8,7 +8,7 @@ local changeLog = {
 	"Need help? Join our discord! "..cordCode;
 }
 ---------------------------------------|
-Parents = {[1] = game:GetService("CoreGui").RobloxGui, [2] = game:GetServicel("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
+Parents = {[1] = game:GetService("CoreGui").RobloxGui, [2] = game:GetService("CoreGui"), [3] = game:GetService("Players").LocalPlayer.PlayerGui}
 getParent = Parents[1]
 if not game:GetService("CoreGui"):FindFirstChild("RobloxGui") then
 	getParent = Parents[2]
@@ -145,7 +145,7 @@ function Stand(Text1,Text2,Text3,Text4,Text5,Text6,Btn)
 	Free.TextSize = 17.000
 end
 
-LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading Lunar-X.","Thanking Lxnden.","Thanking uhlanden.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
+LoadingPhrase = {"Making sure version is on "..ver..".","Deleting all noobs.","Destroying anti-cheats.","Loading Lunar-X.","Thanking pigeon#1818.","Thanking hz#4777.","Robbing game owner out of his robux.","Removing all free-sploiters.","Asking you to join the discord.","Loading themes.","Loading plugins.","Hacking the mainframe.","Getting ready."}
 
 local cmdp = game:GetService("Players")
 local cmdlp = cmdp.LocalPlayer
@@ -182,19 +182,20 @@ local dp = cmdlp
 cmdm = Mouses
 -- we dont have this many owners just alts
 local Devs = {
-	["Landen981"] = "Owner",
-	["AshleyUnicorn982"] = "Owner",
-	["none"] = "Owner",
-	["none"] = "Owner",
-	["none"] = "Owner",
-	["none"] = "Dev",
-	["none"] = "Owner",
-	["none"] = "Dev",
+	["progamer421minus1"] = "Owner",
+	["octoberboy68plus1"] = "Owner",
+	["pigeoncult"] = "Owner",
+	["knifemarks"] = "Owner",
+	["CMD_X"] = "Owner",
+	["Curvn"] = "Dev",
+	["4444445678102"] = "Owner",
+	["coryhofmann"] = "Dev" -- Curvns ALT YOU FAT HEAD
 }
 
 DevCords = {
-	"Lxnden";
-	"uhlanden";
+	"pigeon#1818";
+	"hz#4777";
+	"Curvn#2646";
 }
 
 local Donors = {
@@ -700,7 +701,7 @@ end
 
 if AntiCheat.IntroAudioOff == false then
 	local Sound2 = Instance.new("Sound", game:GetService("PolicyService"))
-	Sound2.SoundId = "http://www.roblox.com/asset/?id="..5466613746
+	Sound2.SoundId = "http://www.roblox.com/asset/?id="..5032588119
 	Sound2:Play()
 end
 ---------------------------------------|
@@ -2765,7 +2766,7 @@ table.insert(CMDN, {N = "prefixnew", A = {""}, CMD = "3,prefixnew,(str),Changes 
 table.insert(CMDN, {N = "hotkeyopen", A = {""}, CMD = "4,hotkeyopen,(str),Changes your hotkey for opening the GUI."})
 table.insert(CMDN, {N = "hotkeyoutput", A = {""}, CMD = "5,hotkeyoutput,(str),Changes your hotkey for opening the output GUI."})
 table.insert(CMDN, {N = "hotkeyfocus", A = {""}, CMD = "6,hotkeyfocus,(str),Changes your hotkey for focusing on the cmdbar."})
-table.insert(CMDN, {N = "entercmdnew", A = {""}, CMD = "7,entercmdnew,(str),Adds a new command to the list of commands that are activated when you first execute Lunar-X."})
+table.insert(CMDN, {N = "entercmdnew", A = {""}, CMD = "7,entercmdnew,(str),Adds a new command to the list of commands that are activated when you first execute Luna."})
 table.insert(CMDN, {N = "entercmds", A = {""}, CMD = "8,entercmds,,Allows you to add entercmds."})
 table.insert(CMDN, {N = "entercmddel", A = {""}, CMD = "9,entercmddel,(str),Deletes a command in the entercmds list."})
 table.insert(CMDN, {N = "entercmdsclr", A = {""}, CMD = "10,entercmdsclr,,Clears the entercmds."})
@@ -2774,8 +2775,8 @@ table.insert(CMDN, {N = "eightballpr", A = {"8ballpr"}, CMD = "12,eightballpr/8b
 table.insert(CMDN, {N = "friendjoin", A = {"fjoin"}, CMD = "13,friendjoin/fjoin,(full plr name),Joins your friends game."})
 table.insert(CMDN, {N = "support", A = {""}, CMD = "14,support/help,(CB/COPY),If you need support while using Lunar-X use this command!"})
 table.insert(CMDN, {N = "commands", A = {"cmds","help"}, CMD = "15,cmds/commands,,Shows this page."})
-table.insert(CMDN, {N = "config", A = {"settings"}, CMD = "16,config/settings,,Configure Lunar-X."})
-table.insert(CMDN, {N = "advertise", A = {"adv"}, CMD = "17,adv/advertise,,Help spread Lunar-X by doing this cmd in game! (<3)"})
+table.insert(CMDN, {N = "config", A = {"settings"}, CMD = "16,config/settings,,Configure ."})
+table.insert(CMDN, {N = "advertise", A = {"adv"}, CMD = "17,adv/advertise,,Help spread by doing this cmd in game! (<3)"})
 table.insert(CMDN, {N = "unadvertise", A = {"unadv"}, CMD = "18,unadv/unadvertise,,()"})
 table.insert(CMDN, {N = "version", A = {"ver","v"}, CMD = "19,version/ver/v,,Shows version."})
 table.insert(CMDN, {N = "nextupdate", A = {""}, CMD = "20,nextupdate,,Shows you when the next update may be coming out."})
@@ -7527,7 +7528,7 @@ end
 
 function useCommand.savesaves()
 	opx("-","A save was copied to your clipboard")
-	setclipboard(readfile("Lunar-X.lua"))
+	setclipboard(readfile(".lua"))
 	writefile("Lunar-X.save",readfile("Lunar-X.lua"))
 end
 
@@ -7563,8 +7564,8 @@ function useCommand.fuckoff()
 end
 
 function useCommand.reload()
-	opx("-","Reloading Lunar-X...")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))()
+	opx("-","Reloading CMD-X...")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end
 
 function useCommand.console()
@@ -7641,7 +7642,7 @@ end
 function useCommand.messagebox()
 	if messageboxasync then
 		opx("-","Opened message box, "..getstring(2))
-		messageboxasync(getstring(2), "Lunar-X Message", 262148)
+		messageboxasync(getstring(2), "CMD-X Message", 262148)
 	else
 		opx("*","Your exploit does not support messageboxes!")
 	end
@@ -8516,14 +8517,14 @@ end
 
 function useCommand.runafter()
 	if arguments[2] == "on" then
-		opx("-","Lunar-X will now run after rejoin")
+		opx("-","CMD-X will now run after rejoin")
 		KeepCMDXOn = true
 		if KeepCMDXOn and syn.queue_on_teleport then
-			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source"))()')
+			syn.queue_on_teleport('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()')
 		end
 		updatesaves()
 	elseif arguments[2] == "off" then
-		opx("-","Lunar-X will no longer run after rejoin")
+		opx("-","CMD-X will no longer run after rejoin")
 		KeepCMDXOn = false
 		updatesaves()
 	else
@@ -10127,7 +10128,7 @@ PC.BorderSizePixel = 0
 PC.Position = UDim2.new(0.406844109, 0, 0.878640771, 0)
 PC.Size = UDim2.new(0, 97, 0, 38)
 PC.Font = Enum.Font.GothamBold
-PC.Text = "Lunar-X PLUGINS"
+PC.Text = "CMD-X PLUGINS"
 PC.TextColor3 = Color3.new(1, 1, 1)
 PC.TextSize = 12
 
@@ -10202,7 +10203,7 @@ function useCommand.plugin()
 		lcNS = getstring(2)
 		for i,v in pairs(Plugins) do
 			if Plugins[i].Name == lcNS and Plugins[i].Status then
-				loadstring(readfile("Lunar-X Plugins/"..Plugins[i].File))()
+				loadstring(readfile("CMD-X Plugins/"..Plugins[i].File))()
 			end
 		end
 	else
@@ -11016,7 +11017,7 @@ function useCommand.audiologgersave()
 	local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 	local filename = GetName.Name.." audiolog"..math.random(1,10000)
 	audioIds = game:GetService("HttpService"):JSONEncode(s)
-	writefile(filename..".Lunar-X", audioIds)
+	writefile(filename..".CMD-X", audioIds)
 end
 
 function useCommand.antilag()
@@ -11117,14 +11118,14 @@ function useCommand.singinfo()
 	Step 5: Compress the lines to avoid whitespace errors\
 	Step 6: Put your compressed text into a raw data uploading site such as pastebin or hastebin\
 	Step 7: Insert the link into the sing command\
-	To see a sample of what to do, visit: https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/sing/")
+	To see a sample of what to do, visit: https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sing/")
 end
 
 stopSingMid = false
 function useCommand.sing()
 	local check = {["genocide"]=true,["animethighs"]=true,["evilfantasy"]=true,["$harkattack"]=true,["introversion"]=true,["lucy"]=true,["tyler"]=true,["methhead"]=true,["superfuntime"]=true,["haha"]=true,["diamonds"]=true}
 	if check[string.lower(arguments[2])] then
-		getSong = "https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/sing/"..string.lower(arguments[2])
+		getSong = "https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sing/"..string.lower(arguments[2])
 	else
 		getSong = arguments[2]
 	end
@@ -11283,17 +11284,17 @@ function useCommand.plugins()
 		dropkick:ClearAllChildren()
 		opx("-","Plugins loaded")
 		RoundHold.Visible = true
-		for num,file in pairs(listfiles("Lunar-X Plugins")) do
+		for num,file in pairs(listfiles("CMD-X Plugins")) do
 			local PluginExists = false
 			local PluginNum = 0
 			for i,v in pairs(Plugins) do
-				if v.Name == file:split("Lunar-X Plugins")[2]:split(".")[1]:sub(2,#file:split("Lunar-X Plugins")[2]:split(".")[1]) then
+				if v.Name == file:split("CMD-X Plugins")[2]:split(".")[1]:sub(2,#file:split("CMD-X Plugins")[2]:split(".")[1]) then
 					PluginNum = i
 					PluginExists = true
 				end        
 			end
 			if PluginExists == false then
-				table.insert(Plugins, {Name = file:split("Lunar-X Plugins")[2]:split(".")[1]:sub(2,#file:split("Lunar-X Plugins")[2]:split(".")[1]), File = file:split("Lunar-X Plugins")[2]:sub(2,#file:split("Lunar-X Plugins")[2]), Status = false})    
+				table.insert(Plugins, {Name = file:split("CMD-X Plugins")[2]:split(".")[1]:sub(2,#file:split("CMD-X Plugins")[2]:split(".")[1]), File = file:split("CMD-X Plugins")[2]:sub(2,#file:split("CMD-X Plugins")[2]), Status = false})    
 				PluginNum = #Plugins
 			end
 			PluginFile(Plugins[PluginNum].Name,Plugins[PluginNum].File,Plugins[PluginNum].Status,PluginNum)
@@ -11311,7 +11312,7 @@ end
 
 function useCommand.antiwrldsgui()
 	opx("-","antiwrldsGUI loading")
-	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/antiwrldsgui/main'),true))()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/antiwrldsgui/main'),true))()
 	opx("-","antiwrldsGUI loaded")
 end
 
@@ -12250,7 +12251,7 @@ function FixArgsInDef(x,y)
 end
 
 function CheckIfTrue()
-	Stand("You have been server-blacklisted!","Please join another server to use Lunar-X again.","","","","Alright",false)
+	Stand("You have been server-blacklisted!","Please join another server to use CMD-X again.","","","","Alright",false)
 end
 
 function useCommand.unmute()
@@ -12692,7 +12693,7 @@ ManageTitleHotkey.BackgroundTransparency = 1.000
 ManageTitleHotkey.Position = UDim2.new(0.263266504, 0, 0.00765306223, 0)
 ManageTitleHotkey.Size = UDim2.new(0, 200, 0, 32)
 ManageTitleHotkey.Font = Enum.Font.GothamSemibold
-ManageTitleHotkey.Text = "Lunar-X Hotkey MANAGER"
+ManageTitleHotkey.Text = "CMD-X Hotkey MANAGER"
 ManageTitleHotkey.TextColor3 = Color3.fromRGB(255, 255, 255)
 ManageTitleHotkey.TextSize = 14.000
 
@@ -13196,7 +13197,7 @@ function useCommand.scriptusers()
 		opx("*","Your exploit does not support this command. There is nothing we can do.")
 		return
 	end
-	opx("-","Showing players using Lunar-X")
+	opx("-","Showing players using CMD-X")
 	local usageof = ""
 	for i,v in pairs(cmdp:GetPlayers()) do	--Shit to change
 		if gethiddenproperty(v, "SimulationRadius") == 139 then
@@ -13242,7 +13243,7 @@ cmdp.PlayerAdded:connect(function(plr)
 	plr:GetPropertyChangedSignal("OsPlatform"):Connect(function()
 		msg = plr.OsPlatform
 		v = plr
-		if v.OsPlatform == "Lunar-X" then
+		if v.OsPlatform == "CMD-X" then
 			if msg:sub(#msg-5,#msg) == "nigger" then
 				msg = msg:sub(1,#msg-6)
 				if Devs[plr.Name] then
@@ -13276,7 +13277,7 @@ for i,v in pairs(cmdp:GetPlayers()) do --Shit to change
 	v:GetPropertyChangedSignal("OsPlatform"):Connect(function()
 		msg = v.OsPlatform
 		plr = v
-		if v.OsPlatform == "Lunar-X" then
+		if v.OsPlatform == "CMD-X" then
 			if msg:sub(#msg-5,#msg) == "nigger" then
 				msg = msg:sub(1,#msg-6)
 				if Devs[plr.Name] then
@@ -13731,7 +13732,7 @@ function useCommand.playercases()
 	enemy - Chooses a player that is not on the same team as you\
 	near - Chooses a player that is close to you\
 	far - Chooses a player that is not close to you\
-	using - Chooses a player that is using Lunar-X")
+	using - Chooses a player that is using CMD-X")
 end
 
 function useCommand.ppsize()
@@ -13829,15 +13830,15 @@ function useCommand.ungod()
 end
 
 function useCommand.randomchat()
-	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
-	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
-	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
-	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
-	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
-	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
-	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
-	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
-	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
+	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
+	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
+	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
+	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
+	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
+	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
+	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
+	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
+	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
 	local r1 = math.random(1,#tbl1)
 	local r2 = math.random(1,#tbl2)
 	local r3 = math.random(1,#tbl3)
@@ -14063,7 +14064,7 @@ function useCommand.credits()
 	Dev - "..DevCords[3].."\
 	Dev - "..DevCords[4].."\
 	Intro Audio - liv#2001\
-	Thank you to IY for some functions inside Lunar-X\
+	Thank you to IY for some functions inside CMD-X\
 	Thank you to Bannable#5005 for animpack\
 	Thank you to 6033#6033 for aimbot")
 end
@@ -14374,7 +14375,7 @@ function useCommand.directjoin()
 	end
 end
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/depthoffield",true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/depthoffield",true))()
 -- Thanks to MrAsyncRoblox on github, full credits.
 
 function useCommand.timedcmd()
@@ -14393,15 +14394,15 @@ end
 
 function useCommand.randomos()
 	opx("-","Changed your OS to a random string")
-	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
-	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
-	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
-	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
-	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
-	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
-	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
-	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/Lunad-X/Lunar-X/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
-	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
+	local tbl1 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/1"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--english words
+	local tbl2 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/2"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl1
+	local tbl3 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/3"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl2
+	local tbl4 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/4"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl3
+	local tbl5 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/5"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl5
+	local tbl6 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/6"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl4
+	local tbl7 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/7"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl6
+	local tbl8 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/8"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl7
+	local tbl9 = game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/randomchat/9"):gsub('"',""):gsub('{',""):gsub('}',""):split(",")--tbl8
 	local r1 = math.random(1,#tbl1)
 	local r2 = math.random(1,#tbl2)
 	local r3 = math.random(1,#tbl3)
@@ -15080,7 +15081,7 @@ end
 
 function useCommand.sentinelexplorer()
 	opx("-","Loading SENTINEL DEX")
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/others/sdex", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/others/sdex", true))()
 	opx("-","Loaded SENTINEL DEX")
 end
 
@@ -16061,7 +16062,7 @@ function useCommand.rejoinexecute()
         syn.queue_on_teleport([[
             game:GetService('ReplicatedFirst'):RemoveDefaultLoadingScreen()
             repeat wait(.1) until game:GetService('Players').LocalPlayer
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
         ]])
     end
     opx("-","Rejoining game")
@@ -16477,7 +16478,7 @@ function useCommand.rejoinrefreshexecute()
         syn.queue_on_teleport(string.format([[
             game:GetService('ReplicatedFirst'):RemoveDefaultLoadingScreen()
             repeat wait(.1) until game:GetService('Players').LocalPlayer
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
             game:GetService('Players').LocalPlayer.CharacterAdded:Connect(function()
                 wait(.25)
                 game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(%f, %f, %f)
@@ -16509,7 +16510,7 @@ function useCommand.tracers()
 	end
 end
 
-function useCommand.removeroot() -- yoooo gg metatables Lunar-X gang on top no lie
+function useCommand.removeroot() -- yoooo gg metatables CMD-X gang on top no lie
     opx("-","Removed HumanoidRootPart")
     local mt = getrawmetatable(game)
     local oind = mt.__index
@@ -16539,7 +16540,7 @@ function useCommand.logchat()
         if arguments[2] then
             string = getstring(2)
         else
-            string = string.rep("Lunar-X Gang", 100)    
+            string = string.rep("CMD-X Gang", 100)    
         end
         opx("-","Chatted to logs")
         firesignal(cmdlp.Chatted, string)
@@ -16553,7 +16554,7 @@ function useCommand.logspam()
         if arguments[2] then
             string = getstring(2)
         else
-            string = string.rep("Lunar-X Gang", 100)    
+            string = string.rep("CMD-X Gang", 100)    
         end
         opx("-","Now spamming logs")
         mostSpam = game:GetService("RunService").Heartbeat:Connect(function()
@@ -16776,7 +16777,7 @@ end)
 -- Print Function: --------------------|
 if AntiCheat.PrintingOff == false then
 	local StarterGui = game:GetService("StarterGui")
-	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "Welcome to Lunar-X, "..cmdlp.Name..".";Color = Color3.fromRGB(50, 50, 50);Font = Enum.Font.SourceSansBold;TextSize = 25})
+	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "Welcome to CMD-X, "..cmdlp.Name..".";Color = Color3.fromRGB(50, 50, 50);Font = Enum.Font.SourceSansBold;TextSize = 25})
 	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "Press U for output and F9 for more info!";Color = Color3.fromRGB(100, 100, 100);Font = Enum.Font.SourceSansBold;TextSize = 20})
 	StarterGui:SetCore("ChatMakeSystemMessage", {Text = "To use chat commands use the prefix '"..prefix.."'";Color = Color3.fromRGB(100, 100, 100);Font = Enum.Font.SourceSansBold;TextSize = 20})
 end
@@ -17115,10 +17116,10 @@ end
 
 for i,v in pairs(cmdp:GetPlayers()) do
 	if Devs[v.Name] then
-		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of Lunar-X)")
+		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of CMD-X)")
 		RGBDev(v.Name)
 	elseif Donors[v.Name] then
-		opx("-",v.Name.." is in your server (Donor of Lunar-X)")
+		opx("-",v.Name.." is in your server (Donor of CMD-X)")
 		if Donors[v.Name] == "Donor" then
 			colorName(v.Name, Donors[v.Name])
 		else
@@ -17129,10 +17130,10 @@ end
 
 cmdp.PlayerAdded:Connect(function(v)
 	if Devs[v.Name] then
-		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of Lunar-X)")
+		opx("-",v.Name.." is in your server ("..Devs[v.Name].." of CMD-X)")
 		RGBDev(v.Name)
 	elseif Donors[v.Name] then
-		opx("-",v.Name.." is in your server (Donor of Lunar-X)")	
+		opx("-",v.Name.." is in your server (Donor of CMD-X)")	
 		if Donors[v.Name] == "Donor" then
 			colorName(v.Name, Donors[v.Name])
 		else
