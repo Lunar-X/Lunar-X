@@ -157,7 +157,7 @@ end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Version",true))()
 if Current.Version ~= ver then
-	Stand("Lunar-X is not up to date!","Lunar-X cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
+	Stand("Lunar-X has not been updated!","Lunar-X cannot run.","","Your version: "..ver,"Current version: "..Current.Version,"Run Anyway",true)
 	repeat wait() until RunDude == true
 end
 
