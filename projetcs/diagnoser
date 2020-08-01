@@ -42,27 +42,27 @@ RetardFrame.Position = UDim2.new(0.247995064, 0, 0.223363847, 0)
 RetardFrame.Size = UDim2.new(0.504009843, 0, 0.709180236, 0)
 
 function JSON()
-    if isfile("CMD-X.lua") then
-        delfile("CMD-X.lua")    
+    if isfile("Lunar-X.lua") then
+        delfile("Lunar-X.lua")    
     end
 end
 
 function Par()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()    
-    setclipboard('loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()')
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))()    
+    setclipboard('loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))()')
 end
 
 function KRNL()
-    setclipboard(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))
+    setclipboard(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source"))
 end
 
 function SK8R()
-    setclipboard(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source").."end)")
+    setclipboard(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source").."end)")
 end
 
 function Forbid()
     if newproxy then
-        setclipboard('newproxy(loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))())')
+        setclipboard('newproxy(loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source", true))())')
     end    
 end
 
@@ -226,17 +226,17 @@ local ToDiagnose = {
 	Free = {
 	    Key = "Free";
 		Text = "Free executor";
-		String = "Unfortunately, CMD-X does not support free executors due to the lackluster performance and them not particularly being up to date.\n\nWe recommend you use one of the below executors;\nSynapse X (x.synapse.to, 20$), Protosmasher (protosmasher.net, 15$), Sirhurt (sirhurt.net, 2.50$ - 10$), Calamari-W (calamari.cc/buy, 1.29$ - 8.50$), KRNL (krnl.rocks, FREE)";
+		String = "Unfortunately, Lunar-X does not support free executors due to the lackluster performance and them not particularly being up to date.\n\nWe recommend you use one of the below executors;\nSynapse X (x.synapse.to, 20$), Protosmasher (protosmasher.net, 15$), Sirhurt (sirhurt.net, 2.50$ - 10$), Calamari-W (calamari.cc/buy, 1.29$ - 8.50$), KRNL (krnl.rocks, FREE)";
 	};
 	JSON = {
 	    Key = "JSON";
 	    Text = "Can't parse JSON";
-	    String = "Issue was fixed rejoin and reload CMD-X.";
+	    String = "Issue was fixed rejoin and reload Lunar-X.";
 	};
 	Par = {
 	    Key = "Par";
-	    Text = "CMD-X not being up to par";
-	    String = "Executed latest script and set newest loadstring to your clipboard, if your running CMD-X right after an update please consider waiting some time before running again.";
+	    Text = "Lunar-X not being up to par";
+	    String = "Executed latest script and set newest loadstring to your clipboard, if your running Lunar-X right after an update please consider waiting some time before running again.";
 	};
 	Retardation = {
 	    Key = "Ret";
