@@ -1,3 +1,3 @@
 game:GetService("ReplicatedFirst"):RemoveDefaultLoadingScreen()
 wait(7)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/CMD-X/master/Source"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunar-X/Lunar-X/master/Source"))()
