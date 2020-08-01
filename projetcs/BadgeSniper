@@ -1,4 +1,4 @@
--- Made by Lxnden, all rights reserved. Make sure to check out my Admin GUI (CMD-X) search CMD-X Roblox on Google!
+-- Made by Lxnden, all rights reserved. Make sure to check out my Admin GUI (Lunar-X) search Lunar-X Roblox on Google!
 
 -- IF YOU ARE USING SYNAPSE DO NOT PRESS THE CONSOLE WHILE BADGE SNIPER IS RUNNING, YOU MAY CRASH.
 
@@ -27,10 +27,10 @@ local CurrentId = "0"
 local NoLongerLooking = false
 local CurrentBadge = "0"
 PrintSync("\nWelcome to BadgeSniper by Lxnden! Username for user search = "..Target)
-if rconsolename then rconsolename("Badge Sniper//Get CMD-X or gay.") end
+if rconsolename then rconsolename("Badge Sniper//Get Lunar-X or gay.") end
 PrintSync("\n")
 WarnSync("Due to Roblox sorting badges by oldest first the badge checking process may take some time.")
-PrintSync("Make sure to check out my Admin GUI (CMD-X) search CMD-X Roblox on Google!")
+PrintSync("Make sure to check out my Admin GUI (Lunar-X) search Lunar-X Roblox on Google!")
 PrintSync("\n")
 
 pcall(function() Http = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://api.roblox.com/users/get-by-username?username="..Target)); CurrentId = Http.Id end)
