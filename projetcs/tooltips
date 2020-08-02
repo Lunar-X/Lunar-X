@@ -17,7 +17,7 @@ new.entry.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
 
 new.entry.user.Position = UDim2.new(0, 5, 0, -3)
 new.entry.user.TextColor3 = Color3.new(255, 255, 255)
-new.entry.user.Text = "discord.gg/cmd"
+new.entry.user.Text = "discord.gg/lunarx"
 new.entry.user.TextXAlignment = Enum.TextXAlignment.Left
 
 new.exit = Instance.new("TextButton", new.entry)
